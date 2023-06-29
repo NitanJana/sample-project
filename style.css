@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap');
 
 * {
   margin: 0;
@@ -121,7 +121,6 @@ body {
   text-align: center;
   width: 170px;
   gap: 8px;
-
 }
 
 .info-image {
@@ -134,4 +133,30 @@ body {
 .info-subtext {
   color: #6d747d;
   font-size: 18px;
+}
+
+/* Quote section */
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 6rem 16rem;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 2em;
 }
