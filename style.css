@@ -16,6 +16,7 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fff;
 }
 
 /* HEADER */
@@ -62,7 +63,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
-  flex:1;
+  flex: 1;
 }
 .hero-title {
   color: #f9faf8;
@@ -92,4 +93,45 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+/* Information */
+
+.info-section-container {
+  padding: 3rem 10rem;
+}
+
+.info-section-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info-container {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 170px;
+  gap: 8px;
+
+}
+
+.info-image {
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.info-subtext {
+  color: #6d747d;
+  font-size: 18px;
 }
