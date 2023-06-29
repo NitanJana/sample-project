@@ -16,9 +16,9 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  
 }
 
+/* HEADER */
 .header {
   padding: 1.5rem 10rem;
   background-color: #1f2937;
@@ -29,6 +29,7 @@ body {
 
 .header .header-logo {
   font-size: 24px;
+  font-weight: 700;
   color: #f9faf8;
 }
 
@@ -40,4 +41,55 @@ body {
 .header .right-links a {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* HERO */
+
+.hero-container {
+  background-color: #1f2937;
+  padding: 6rem 10rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex:1;
+}
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 450px;
+}
+.button-sign-up {
+  background-color: #3882f6;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero-image-placeholder {
+  align-self: stretch;
+  color: #fff;
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
